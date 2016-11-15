@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/_ChainMap.js | aureooms/js-collections-chainmap API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+<script data-ice="userScript" src="user/script/0-header.js"></script>
+<link data-ice="userStyle" rel="stylesheet" href="user/css/0-style.css">
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <a data-ice="repoURL" href="https://github.com/aureooms/js-collections-chainmap.git" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_ChainMap">_ChainMap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_chainmap">_chainmap</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/_ChainMap.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { KeyError } from &apos;aureooms-js-error&apos; ;
+
+export default function _ChainMap ( Dict , Set ) {
+
+	const ChainMap = function ( ...maps ) {
+
+		this.maps = maps ;
+
+		if ( this.maps.length === 0 ) this.maps.push( new Dict( ) ) ;
+
+	} ;
+
+	ChainMap.prototype.__missing__ = function ( key ) {
+
+		throw new KeyError( key ) ;
+
+	} ;
+
+	ChainMap.prototype.get = function ( key ) {
+
+		for ( let map of this.maps ) {
+
+			try {
+
+				return map.get( key ) ;
+
+			}
+
+			catch ( e ) {
+
+				if ( !( e instanceof KeyError ) ) throw e ;
+
+			}
+
+		}
+
+		return this.__missing__( key ) ;
+
+	} ;
+
+	ChainMap.prototype.getdefault = function ( key , dflt = null ) {
+
+		return this.has( key ) ? this.get( key ) : dflt ;
+
+	} ;
+
+	ChainMap.prototype._keys = function ( ) {
+
+		let keys = new Set( ) ;
+
+		for ( let map of this.maps ) keys.update( map.keys( ) ) ;
+
+		return keys ;
+
+	} ;
+
+	ChainMap.prototype.len = function ( ) {
+
+		return this._keys( ).len( ) ;
+
+	} ;
+
+	ChainMap.prototype[Symbol.iterator] =
+	ChainMap.prototype.items = function* ( ) {
+
+		for ( let key of this.keys( ) ) yield [ key , this.get( key ) ] ;
+
+	} ;
+
+	ChainMap.prototype.has = function ( key ) {
+
+		for ( let map of this.maps ) {
+
+			if ( map.has( key ) ) return true ;
+
+		}
+
+		return false ;
+
+	} ;
+
+	ChainMap.fromkeys = function ( seq , value = null ) {
+
+		return new ChainMap( Dict.fromkeys( seq , value ) ) ;
+
+	} ;
+
+	ChainMap.prototype.copy = function ( ) {
+
+		const [ child , ...parents ] = this.maps ;
+
+		return new ChainMap( child.copy( ) , ...parents ) ;
+
+	} ;
+
+	ChainMap.prototype.new_child = function ( map = null ) {
+
+		if ( map === null ) map = new Dict( ) ;
+
+		return new ChainMap( map , ...this.maps ) ;
+
+	} ;
+
+	ChainMap.prototype.parents = function ( ) {
+
+		const [ child , ...parents ] = this.maps ;
+
+		return new ChainMap( ...parents ) ;
+
+	} ;
+
+	ChainMap.prototype.set = function ( key , value ) {
+
+		return this.maps[0].set( key , value ) ;
+
+	} ;
+
+	ChainMap.prototype.delete = function ( key ) {
+
+		try {
+
+			this.maps[0].delete( key ) ;
+
+		}
+
+		catch ( e ) {
+
+			if ( !( e instanceof KeyError ) ) throw e ;
+
+			throw new KeyError( &quot;Key not found in the first mapping: &quot; + key ) ;
+
+		}
+
+		return this ;
+
+	} ;
+
+	ChainMap.prototype.popitem = function ( ) {
+
+		try {
+
+			return this.maps[0].popitem( ) ;
+
+		}
+
+		catch ( e ) {
+
+			if ( !( e instanceof KeyError ) ) throw e ;
+
+			throw new KeyError( &quot;No keys found in the first mapping.&quot; ) ;
+
+		}
+
+	} ;
+
+	ChainMap.prototype.pop = function ( key , dflt = null ) {
+
+		try {
+
+			if ( arguments.length &lt;= 1 ) return this.maps[0].pop( key ) ;
+
+			return this.maps[0].pop( key , dflt ) ;
+
+		}
+
+		catch ( e ) {
+
+			if ( !( e instanceof KeyError ) ) throw e ;
+
+			throw new KeyError( &quot;Key not found in the first mapping: &quot; + key ) ;
+
+		}
+
+	} ;
+
+	ChainMap.prototype.clear = function ( ) {
+
+		this.maps[0].clear( ) ;
+
+		return this ;
+
+	} ;
+
+	ChainMap.prototype.keys = function* ( ) {
+
+		yield* this._keys( ) ;
+
+	} ;
+
+
+	ChainMap.prototype.values = function* ( ) {
+
+		for ( let key of this.keys( ) ) yield this.get( key ) ;
+
+	} ;
+
+	return ChainMap ;
+
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
