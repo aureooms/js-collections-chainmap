@@ -1,4 +1,4 @@
-import { KeyError } from '../error' ;
+import { KeyError } from 'aureooms-js-error' ;
 
 export default function _ChainMap ( Dict , Set ) {
 
