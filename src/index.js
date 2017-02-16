@@ -1,5 +1,5 @@
-import { Dict } from 'aureooms-js-collections-dict' ;
-import { Set } from 'aureooms-js-collections-set' ;
+import { Dict } from '@aureooms/js-collections-dict' ;
+import { Set } from '@aureooms/js-collections-set' ;
 
 import _ChainMap from './_ChainMap' ;
 import _chainmap from './_chainmap' ;

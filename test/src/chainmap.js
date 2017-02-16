@@ -1,11 +1,11 @@
 import test from 'ava' ;
 
-import { increasing , lexicographical } from "aureooms-js-compare" ;
+import { increasing , lexicographical } from "@aureooms/js-compare" ;
 const lex = lexicographical( increasing ) ;
 
-import { sorted } from "aureooms-js-itertools" ;
-import { KeyError } from 'aureooms-js-error' ;
-import dict from 'aureooms-js-collections-dict' ;
+import { sorted } from "@aureooms/js-itertools" ;
+import { KeyError } from '@aureooms/js-error' ;
+import dict from '@aureooms/js-collections-dict' ;
 
 import chainmap from '../../src' ;
 
