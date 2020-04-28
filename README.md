@@ -1,8 +1,8 @@
-[js-collections-chainmap](http://aureooms.github.io/js-collections-chainmap)
+[@aureooms/js-collections-chainmap](https://aureooms.github.io/js-collections-chainmap)
 ==
 
 Python's chainmap data structure for JavaScript. Parent is
-[js-collections](https://github.com/aureooms/js-collections).
+[@aureooms/js-collections](https://github.com/aureooms/js-collections).
 
 ```js
 let A = dict( [ [ "x" , "A" ] ] ) ;
