@@ -90,7 +90,7 @@ test( "chainmap" , t => {
 
 	M = M.parents( ) ;
 
-	t.throws( M.get.bind( M , "w" ) , KeyError , "w throws" ) ;
+	t.throws( M.get.bind( M , "w" ) , { instanceOf: KeyError } , "w throws" ) ;
 
 	t.deepEqual( M.len( ) , 3 , "-w DBAC len" ) ;
 	t.deepEqual( M.get( "x" ) , "B" , "-w BAC depth 1" ) ;
@@ -102,7 +102,7 @@ test( "chainmap" , t => {
 	t.true( M.has( "z" ) , "has z BAC depth 3" ) ;
 
 	t.deepEqual( M.delete( "x" ).len( ) , 3 , "delete" ) ;
-	t.throws( M.delete.bind( M , "x" ) , KeyError , "delete raises" ) ;
+	t.throws( M.delete.bind( M , "x" ) , { instanceOf: KeyError } , "delete raises" ) ;
 	t.deepEqual( M.get( "x" ) , "A" , "-wx AC depth 1" ) ;
 
 	t.deepEqual( chainmap( C ).clear( ).len( ) , 0 , "clear" ) ;
@@ -117,8 +117,8 @@ test( "chainmap" , t => {
 
 	M = chainmap.fromkeys( "x" ).new_child( ) ;
 
-	t.throws( M.popitem.bind( M ) , KeyError , "popitem empty map[0]" ) ;
-	t.throws( M.pop.bind( M , "x" ) , KeyError , "pop empty map[0]" ) ;
+	t.throws( M.popitem.bind( M ) , { instanceOf: KeyError } , "popitem empty map[0]" ) ;
+	t.throws( M.pop.bind( M , "x" ) , { instanceOf: KeyError } , "pop empty map[0]" ) ;
 
 	t.deepEqual( chainmap( ).getdefault( "y" ) , null , "getdefault null" ) ;
 	t.deepEqual( chainmap( ).getdefault( "y" , "A" ) , "A" , "getdefault A" ) ;
