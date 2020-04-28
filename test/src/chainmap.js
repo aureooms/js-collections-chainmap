@@ -131,9 +131,9 @@ test( "chainmap" , t => {
 		"delete" : function ( ) { throw new Error( ) ; }
 	} ) ;
 
-	t.throws( M.get.bind( M , 0 ) , Error , "get forwards" ) ;
-	t.throws( M.pop.bind( M ) , Error , "pop forwards" ) ;
-	t.throws( M.popitem.bind( M ) , Error , "popitem forwards" ) ;
-	t.throws( M.delete.bind( M , 0 ) , Error , "delete forwards" ) ;
+	t.throws( M.get.bind( M , 0 ) , null , "get forwards" ) ;
+	t.throws( M.pop.bind( M ) , null , "pop forwards" ) ;
+	t.throws( M.popitem.bind( M ) , null , "popitem forwards" ) ;
+	t.throws( M.delete.bind( M , 0 ) , null , "delete forwards" ) ;
 
 } ) ;
