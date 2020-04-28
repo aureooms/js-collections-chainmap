@@ -1,0 +1,761 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/_ChainMap.js",
+    "content": "import { KeyError } from '@aureooms/js-error' ;\n\nexport default function _ChainMap ( Dict , Set ) {\n\n\tconst ChainMap = function ( ...maps ) {\n\n\t\tthis.maps = maps ;\n\n\t\tif ( this.maps.length === 0 ) this.maps.push( new Dict( ) ) ;\n\n\t} ;\n\n\tChainMap.prototype.__missing__ = function ( key ) {\n\n\t\tthrow new KeyError( key ) ;\n\n\t} ;\n\n\tChainMap.prototype.get = function ( key ) {\n\n\t\tfor ( let map of this.maps ) {\n\n\t\t\ttry {\n\n\t\t\t\treturn map.get( key ) ;\n\n\t\t\t}\n\n\t\t\tcatch ( e ) {\n\n\t\t\t\tif ( !( e instanceof KeyError ) ) throw e ;\n\n\t\t\t}\n\n\t\t}\n\n\t\treturn this.__missing__( key ) ;\n\n\t} ;\n\n\tChainMap.prototype.getdefault = function ( key , dflt = null ) {\n\n\t\treturn this.has( key ) ? this.get( key ) : dflt ;\n\n\t} ;\n\n\tChainMap.prototype._keys = function ( ) {\n\n\t\tlet keys = new Set( ) ;\n\n\t\tfor ( let map of this.maps ) keys.update( map.keys( ) ) ;\n\n\t\treturn keys ;\n\n\t} ;\n\n\tChainMap.prototype.len = function ( ) {\n\n\t\treturn this._keys( ).len( ) ;\n\n\t} ;\n\n\tChainMap.prototype[Symbol.iterator] =\n\tChainMap.prototype.items = function* ( ) {\n\n\t\tfor ( let key of this.keys( ) ) yield [ key , this.get( key ) ] ;\n\n\t} ;\n\n\tChainMap.prototype.has = function ( key ) {\n\n\t\tfor ( let map of this.maps ) {\n\n\t\t\tif ( map.has( key ) ) return true ;\n\n\t\t}\n\n\t\treturn false ;\n\n\t} ;\n\n\tChainMap.fromkeys = function ( seq , value = null ) {\n\n\t\treturn new ChainMap( Dict.fromkeys( seq , value ) ) ;\n\n\t} ;\n\n\tChainMap.prototype.copy = function ( ) {\n\n\t\tconst [ child , ...parents ] = this.maps ;\n\n\t\treturn new ChainMap( child.copy( ) , ...parents ) ;\n\n\t} ;\n\n\tChainMap.prototype.new_child = function ( map = null ) {\n\n\t\tif ( map === null ) map = new Dict( ) ;\n\n\t\treturn new ChainMap( map , ...this.maps ) ;\n\n\t} ;\n\n\tChainMap.prototype.parents = function ( ) {\n\n\t\tconst [ child , ...parents ] = this.maps ;\n\n\t\treturn new ChainMap( ...parents ) ;\n\n\t} ;\n\n\tChainMap.prototype.set = function ( key , value ) {\n\n\t\treturn this.maps[0].set( key , value ) ;\n\n\t} ;\n\n\tChainMap.prototype.delete = function ( key ) {\n\n\t\ttry {\n\n\t\t\tthis.maps[0].delete( key ) ;\n\n\t\t}\n\n\t\tcatch ( e ) {\n\n\t\t\tif ( !( e instanceof KeyError ) ) throw e ;\n\n\t\t\tthrow new KeyError( \"Key not found in the first mapping: \" + key ) ;\n\n\t\t}\n\n\t\treturn this ;\n\n\t} ;\n\n\tChainMap.prototype.popitem = function ( ) {\n\n\t\ttry {\n\n\t\t\treturn this.maps[0].popitem( ) ;\n\n\t\t}\n\n\t\tcatch ( e ) {\n\n\t\t\tif ( !( e instanceof KeyError ) ) throw e ;\n\n\t\t\tthrow new KeyError( \"No keys found in the first mapping.\" ) ;\n\n\t\t}\n\n\t} ;\n\n\tChainMap.prototype.pop = function ( key , dflt = null ) {\n\n\t\ttry {\n\n\t\t\tif ( arguments.length <= 1 ) return this.maps[0].pop( key ) ;\n\n\t\t\treturn this.maps[0].pop( key , dflt ) ;\n\n\t\t}\n\n\t\tcatch ( e ) {\n\n\t\t\tif ( !( e instanceof KeyError ) ) throw e ;\n\n\t\t\tthrow new KeyError( \"Key not found in the first mapping: \" + key ) ;\n\n\t\t}\n\n\t} ;\n\n\tChainMap.prototype.clear = function ( ) {\n\n\t\tthis.maps[0].clear( ) ;\n\n\t\treturn this ;\n\n\t} ;\n\n\tChainMap.prototype.keys = function* ( ) {\n\n\t\tyield* this._keys( ) ;\n\n\t} ;\n\n\n\tChainMap.prototype.values = function* ( ) {\n\n\t\tfor ( let key of this.keys( ) ) yield this.get( key ) ;\n\n\t} ;\n\n\treturn ChainMap ;\n\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/src/_ChainMap.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "_ChainMap",
+    "memberof": "src/_ChainMap.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/_ChainMap.js~_ChainMap",
+    "access": "private",
+    "export": true,
+    "importPath": "@aureooms/js-collections-chainmap/src/_ChainMap.js",
+    "importStyle": "_ChainMap",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "Dict",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "Set",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/_chainmap.js",
+    "content": "export default function _chainmap ( ChainMap ) {\n\n\tconst chainmap = function ( ...maps ) {\n\n\t\treturn new ChainMap( ...maps ) ;\n\n\t} ;\n\n\tchainmap.fromkeys = ChainMap.fromkeys ;\n\n\treturn chainmap ;\n\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/src/_chainmap.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "_chainmap",
+    "memberof": "src/_chainmap.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/_chainmap.js~_chainmap",
+    "access": "private",
+    "export": true,
+    "importPath": "@aureooms/js-collections-chainmap/src/_chainmap.js",
+    "importStyle": "_chainmap",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "ChainMap",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import { Dict } from '@aureooms/js-collections-dict' ;\nimport { Set } from '@aureooms/js-collections-set' ;\n\nimport _ChainMap from './_ChainMap' ;\nimport _chainmap from './_chainmap' ;\n\nconst ChainMap = _ChainMap( Dict , Set ) ;\nconst chainmap = _chainmap( ChainMap ) ;\n\nexport default chainmap ;\n\nexport {\n\tchainmap ,\n\tChainMap ,\n\t_chainmap ,\n\t_ChainMap ,\n} ;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "chainmap",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~chainmap",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-collections-chainmap/src/index.js",
+    "importStyle": "chainmap",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "ChainMap",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~ChainMap",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-collections-chainmap/src/index.js",
+    "importStyle": "{ChainMap}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "[@aureooms/js-collections-chainmap](https://aureooms.github.io/js-collections-chainmap)\n==\n\nPython's chainmap data structure for JavaScript. Parent is\n[@aureooms/js-collections](https://github.com/aureooms/js-collections).\n\n```js\nlet A = dict( [ [ \"x\" , \"A\" ] ] ) ;\nlet B = dict( [ [ \"x\" , \"B\" ] , [ \"y\" , \"B\" ] ] ) ;\nlet C = dict( [ [ \"x\" , \"C\" ] , [ \"y\" , \"C\" ] , [ \"z\" , \"C\" ] ] ) ;\n\nlet M = chainmap( A , B , C ) ;\n\nM.get( \"x\" ) ; // \"A\"\nM.get( \"y\" ) ; // \"B\"\nM.get( \"z\" ) ; // \"C\"\n```\n\n[![License](https://img.shields.io/github/license/aureooms/js-collections-chainmap.svg)](https://raw.githubusercontent.com/aureooms/js-collections-chainmap/master/LICENSE)\n[![Version](https://img.shields.io/npm/v/@aureooms/js-collections-chainmap.svg)](https://www.npmjs.org/package/@aureooms/js-collections-chainmap)\n[![Build](https://img.shields.io/travis/aureooms/js-collections-chainmap/master.svg)](https://travis-ci.org/aureooms/js-collections-chainmap/branches)\n[![Dependencies](https://img.shields.io/david/aureooms/js-collections-chainmap.svg)](https://david-dm.org/aureooms/js-collections-chainmap)\n[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-collections-chainmap.svg)](https://david-dm.org/aureooms/js-collections-chainmap?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-collections-chainmap.svg)](https://github.com/aureooms/js-collections-chainmap/issues)\n[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-collections-chainmap.svg)](https://www.npmjs.org/package/@aureooms/js-collections-chainmap)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-collections-chainmap.svg)](https://codeclimate.com/github/aureooms/js-collections-chainmap/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-collections-chainmap.svg)](https://codeclimate.com/github/aureooms/js-collections-chainmap/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-collections-chainmap/master.svg)](https://codecov.io/gh/aureooms/js-collections-chainmap)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-collections-chainmap.svg)](https://codeclimate.com/github/aureooms/js-collections-chainmap/trends/technical_debt)\n[![Documentation](https://aureooms.github.io/js-collections-chainmap//badge.svg)](https://aureooms.github.io/js-collections-chainmap//source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-collections-chainmap)](https://bundlephobia.com/result?p=@aureooms/js-collections-chainmap)\n",
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@aureooms/js-collections-chainmap\",\n  \"description\": \"Collections library for JavaScript\",\n  \"version\": \"4.0.0\",\n  \"author\": \"Aurélien Ooms <aurelien.ooms@gmail.com>\",\n  \"ava\": {\n    \"require\": [\n      \"@babel/polyfill\",\n      \"@babel/register\"\n    ],\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"timeout\": \"1m\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"env\": {\n      \"development\": {\n        \"sourceMaps\": \"inline\"\n      }\n    }\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/aureooms/js-collections-chainmap/issues\"\n  },\n  \"dependencies\": {\n    \"@aureooms/js-collections-dict\": \"^4.0.0\",\n    \"@aureooms/js-collections-set\": \"^4.0.0\",\n    \"@aureooms/js-error\": \"^4.0.0\"\n  },\n  \"devDependencies\": {\n    \"@aureooms/js-compare\": \"1.4.5\",\n    \"@aureooms/js-itertools\": \"3.4.0\",\n    \"@babel/cli\": \"7.8.4\",\n    \"@babel/core\": \"7.9.0\",\n    \"@babel/polyfill\": \"7.8.7\",\n    \"@babel/preset-env\": \"7.9.5\",\n    \"@babel/register\": \"7.9.0\",\n    \"ava\": \"3.8.1\",\n    \"coveralls\": \"3.1.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"np\": \"6.2.3\",\n    \"nyc\": \"15.0.1\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"http://aureooms.github.io/js-collections-chainmap/\",\n  \"keywords\": [\n    \"bisect\",\n    \"collection\",\n    \"collections\",\n    \"count\",\n    \"counter\",\n    \"dict\",\n    \"hash\",\n    \"heapq\",\n    \"javascript\",\n    \"js\",\n    \"list\",\n    \"map\"\n  ],\n  \"license\": \"AGPL-3.0\",\n  \"main\": \"lib/index.js\",\n  \"repository\": {\n    \"url\": \"https://github.com/aureooms/js-collections-chainmap.git\",\n    \"type\": \"git\"\n  },\n  \"scripts\": {\n    \"build\": \"rm -rf lib && babel src -d lib\",\n    \"cover\": \"nyc --reporter=lcov npm test\",\n    \"esdoc\": \"esdoc\",\n    \"prepare\": \"npm run build\",\n    \"release\": \"np\",\n    \"test\": \"ava\"\n  }\n}\n",
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\nCan be managed using\n[jspm](http://jspm.io)\nor [npm](https://github.com/npm/npm).\n\n### jspm\n```terminal\njspm install npm:@aureooms/js-collections-chainmap\n```\n\n### npm\n```terminal\nnpm install @aureooms/js-collections-chainmap --save\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\nThe code needs a ES2015+ polyfill to work, for example\n[@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n```js\nrequire( '@babel/polyfill' ) ;\n// or\nimport '@babel/polyfill' ;\n```\n\nThen\n```js\nconst number = require( '@aureooms/js-collections-chainmap' ) ;\n// or\nimport number from '@aureooms/js-collections-chainmap' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-collections-chainmap/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\nSee Python's docs:\n\n  - [chainmap](https://docs.python.org/3/library/collections.html#collections.chainmap)\n",
+    "static": true,
+    "access": "public"
+  }
+]
