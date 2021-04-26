@@ -1,4 +1,4 @@
-[@aureooms/js-collections-chainmap](https://aureooms.github.io/js-collections-chainmap)
+[@aureooms/js-collections-chainmap](https://make-github-pseudonymous-again.github.io/js-collections-chainmap)
 ==
 
 Python's chainmap data structure for JavaScript. Parent is
@@ -28,5 +28,5 @@ M.get( "z" ) ; // "C"
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-collections-chainmap.svg)](https://codeclimate.com/github/aureooms/js-collections-chainmap/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-collections-chainmap/master.svg)](https://codecov.io/gh/aureooms/js-collections-chainmap)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-collections-chainmap.svg)](https://codeclimate.com/github/aureooms/js-collections-chainmap/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-collections-chainmap//badge.svg)](https://aureooms.github.io/js-collections-chainmap//source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-collections-chainmap//badge.svg)](https://make-github-pseudonymous-again.github.io/js-collections-chainmap//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-collections-chainmap)](https://bundlephobia.com/result?p=@aureooms/js-collections-chainmap)
